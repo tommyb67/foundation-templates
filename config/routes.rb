@@ -2,6 +2,7 @@ FoundationTemplates::Application.routes.draw do
 
   root "pages#home"
   get "marketing" => "pages#marketing"
+  get "about" => "pages#about"
 
 
   # The priority is based upon order of creation: first created -> highest priority.
