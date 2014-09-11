@@ -1,6 +1,7 @@
 FoundationTemplates::Application.routes.draw do
 
   root "pages#home"
+  get "marketing" => "pages#marketing"
 
 
   # The priority is based upon order of creation: first created -> highest priority.
